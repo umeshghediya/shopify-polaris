@@ -1,0 +1,86 @@
+.headerdiv .Polaris-LegacyStack{
+  --pc-stack-spacing:var(--p-space-200);
+}
+
+.headerdiv .Polaris-TopBar__Container{
+  padding-top: 8px;
+}
+.menutabs .Polaris-Tabs__Tab {
+  height: var(--p-space-1200);
+}
+
+.menutabs .Polaris-Tabs {
+  gap: var(--p-space-8);
+}
+
+.menutabs .Polaris-Tabs__Tab--active {
+  background-color: var(--p-color-bg-fill-info-hover) !important;
+  color: var(--p-color-bg-fill) !important;
+}
+
+.menutabs .Polaris-Tabs__Tab--active:hover {
+  background-color: var(--p-color-bg-fill-info-hover) !important;
+  color: var(--p-color-bg-fill) !important;
+}
+
+.color_picker {
+  width: 250px;
+  height: 240px;
+  padding: 15px 5px;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 10px; */
+}
+
+.previewtabs .Polaris-Tabs__Tab {
+  height: var(--p-space-1200);
+}
+
+.previewtabs .Polaris-Tabs__Tab--active {
+  background-color: var(--p-color-bg-fill-info-hover) !important;
+  color: var(--p-color-bg-fill) !important;
+}
+
+.previewtabs .Polaris-Tabs__Tab--active:hover {
+  background-color: var(--p-color-bg-fill-info-hover) !important;
+  color: var(--p-color-bg-fill) !important;
+}
+
+.previewtabs .showicons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.desktoppreviewicons .Polaris-LegacyCard {
+  border: 15px solid rgb(233 233 233);
+}
+
+.desktoppreviewicons .showiconsdiv {
+  display: flex;
+}
+
+.desktoppreviewicons .showicons {
+  display: flex;
+}
+.mobilepreviewicons {
+  display: flex;
+  justify-content: center;
+}
+
+.mobilepreviewicons .Polaris-LegacyCard {
+  border: 15px solid rgb(233 233 233);
+}
+
+.mobilepreviewicons .showiconsdiv {
+  display: flex;
+}
+
+.mobilepreviewicons .showicons {
+  width: 50%;
+}
+
+.mobilepreviewicons .mobilepreviewdiv {
+  width: 300px;
+}
